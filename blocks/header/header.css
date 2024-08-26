@@ -1,8 +1,14 @@
 .header {
-  height: 95vh;
+  height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
+}
+
+@media screen and (max-width: 499px) {
+  .header {
+    height: 600px;
+  }
 }
