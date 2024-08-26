@@ -6,3 +6,12 @@
   top: 64px;
   right: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .header__square-pic {
+    height: 200px;
+    width: 200px;
+    top: 200px;
+    right: -40px;
+  }
+}
