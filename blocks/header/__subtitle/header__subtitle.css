@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 767px) {
   .header__subtitle {
-    width: 90%;
+    width: 300px;
     left: 16px;
     font-size: 14px;
   }
