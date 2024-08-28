@@ -1,5 +1,5 @@
 .header {
-  height: 100vh;
+  height: 100dvh;
   max-height: 700px;
   position: relative;
   display: flex;
@@ -8,8 +8,8 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 499px) {
+/* @media screen and (max-width: 499px) {
   .header {
     height: 100dvh;
   }
-} 
+}  */
