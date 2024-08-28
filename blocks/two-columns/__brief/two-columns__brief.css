@@ -5,10 +5,12 @@
   line-height: 1.2;
   font-weight: normal;
   color: #2f80ed;
+  padding: 0 20px 0 0;
 }
 
 @media screen and (max-width:767px) {
   .two-columns__brief {
     margin: 0 0 20px 0;
+    font-size: 16px;
   }
 }
