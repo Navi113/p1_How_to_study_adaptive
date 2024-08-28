@@ -3,14 +3,21 @@
   width: 568px;
   background-color: #2f80ed;
   position: absolute;
-  top: 64px;
+  bottom: 100px;
   right: 0;
 }
 
-@media screen and (min-width: 500px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .header__square-pic {
-    width: 360px;
-    height: 360px;
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  .header__square-pic {
+    width: 300px;
+    height: 300px;
   }
 }
 
@@ -18,7 +25,7 @@
   .header__square-pic {
     width: 300px;
     height: 300px;
-    top: 100px;
+    bottom: 20px;
   }
 }
 
@@ -26,7 +33,6 @@
   .header__square-pic {
     height: 200px;
     width: 200px;
-    top: 340px;
-    right: -40px;
+    bottom: 30px;
   }
 }
