@@ -1,8 +1,21 @@
 .section-title {
-  width: 60%;
+  width: 90%;
   font-size: 60px;
   line-height: 1.15;
   font-weight: 600;
   margin: 0 auto 20px;
   text-align: center;
+  border: 3px solid lightblue;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .section-title {
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-title {
+    font-size: 44px;
+  }
 }
