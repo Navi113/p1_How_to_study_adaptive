@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media (width < 768px) {
   .section-subtitle {
     width: 90%;
     font-size: 14px;
