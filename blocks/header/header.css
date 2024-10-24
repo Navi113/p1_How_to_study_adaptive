@@ -8,8 +8,8 @@
   overflow: hidden;
 }
 
-/* @media screen and (max-width: 499px) {
+@media (width < 500px) {
   .header {
     height: 100dvh;
   }
-}  */
+} 
