@@ -9,13 +9,13 @@
   z-index: 2;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media (768px <= width <= 1023px) {
   .header__subtitle {
     left: 32px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media (width <= 767px) {
   .header__subtitle {
     width: 300px;
     left: 16px;

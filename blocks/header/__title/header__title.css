@@ -8,13 +8,13 @@
   font-weight: 600;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media (1024px <= width <= 1279px) {
   .header__title {
     font-size: 80px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media (768px <= width <= 1023px) {
   .header__title {
     width: 50%;
     font-size: 64px;
@@ -22,7 +22,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media (width <= 767px) {
   .header__title {
     width: 40%;
     font-size: 40px;
