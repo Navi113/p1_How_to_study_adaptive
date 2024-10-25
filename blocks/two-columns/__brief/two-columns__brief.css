@@ -8,7 +8,7 @@
   padding: 0 20px 0 0;
 }
 
-@media screen and (max-width:767px) {
+@media (width <= 768px) {
   .two-columns__brief {
     margin: 0 0 20px 0;
     font-size: 16px;

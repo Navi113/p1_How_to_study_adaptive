@@ -5,7 +5,7 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 767px) {
+@media (width <= 768px) {
   .two-columns {
     width: 90%;
     display: flex;
