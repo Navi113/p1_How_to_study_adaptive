@@ -3,10 +3,9 @@
   margin: 80px auto 0;
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid green; */
 }
 
-@media screen and (max-width: 767px) {
+@media (width <= 768px) {
   .resources__logo-zone {
     flex-direction: column;
   }
