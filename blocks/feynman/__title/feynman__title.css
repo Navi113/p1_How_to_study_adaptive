@@ -5,6 +5,32 @@
   font-size: 120px;
   line-height: 1.15;
   font-weight: 600;
+  border: 1px solid red;
 }
 
- /* TODO: доделать адаптив для секции Фейман */
+@media (768px <= width <= 1024px) {
+  .feynman__title {
+    font-size: 100px;
+  }
+}
+
+@media (540px <= width < 768px) {
+  .feynman__title {
+    width: 70%;
+    font-size: 70px;
+  }
+}
+
+@media (440px <= width < 540px) {
+  .feynman__title {
+    width: 70%;
+    font-size: 60px;
+  }
+}
+@media (width < 440px) {
+  .feynman__title {
+    width: 70%;
+    font-size: 40px;
+  }
+}
+
