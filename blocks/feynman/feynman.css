@@ -15,5 +15,7 @@
 @media (width <=768px) {
   .feynman {
     padding: 50px 0 0;
+    height: 100dvh;
+    background-position: -280px 100px;
   }
 }
