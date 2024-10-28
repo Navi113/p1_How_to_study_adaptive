@@ -5,4 +5,29 @@
   font-weight: normal;
 }
 
+@media (768px <= width <= 1024px) {
+  .feynman__subtitle {
+    margin: 45px auto 0; 
+  }
+}
+
+@media (540px <= width < 768px) {
+  .feynman__subtitle {
+    margin: 35px auto 0; 
+  }
+}
+
+@media (440px <= width < 540px) {
+  .feynman__subtitle {
+    margin: 25px auto 0; 
+    font-size: 30px;
+  }
+}
+@media (width < 440px) {
+  .feynman__subtitle {
+    margin: 15px auto 0; 
+    font-size: 20px;
+  }
+}
+
  /* TODO: доделать адаптив для секции Фейман */
