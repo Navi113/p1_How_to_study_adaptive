@@ -4,3 +4,12 @@
   position: relative;
   top: 50px;
 }
+
+@media (width <= 1024px) {
+  .video__iframes{
+    width: 90%;
+    flex-direction: column;
+    margin: 0 auto;
+    top: 30px;
+  }
+}
