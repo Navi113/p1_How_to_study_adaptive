@@ -5,3 +5,12 @@
   object-position: left top;
   margin: 0 48px 0 0;
 }
+
+@media (width <= 1024px) {
+  .khan__book-pic {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+/* TODO добить картинку и шрифт ссылки */

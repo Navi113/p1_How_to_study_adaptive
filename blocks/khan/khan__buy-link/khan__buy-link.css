@@ -17,3 +17,9 @@
 .khan__buy-link:hover {
   opacity: .5;
 }
+
+@media (768px <= width <= 1024px) {
+  .khan__buy-link {
+    margin: 20px 0 0 0;
+  }
+}

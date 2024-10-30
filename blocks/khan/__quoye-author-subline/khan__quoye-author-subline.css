@@ -4,3 +4,10 @@
   line-height: 1.15;
   font-weight: normal;
 }
+
+@media (768px <= width <= 1024px) {
+  .khan__quoye-author-subline {
+    font-size: 16px;
+    margin: 0 0 34px;
+  }
+}

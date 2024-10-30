@@ -1,3 +1,9 @@
 .khan__blockquote {
   margin: 0 0 36px;
 }
+
+@media (768px <= width <= 1024px) {
+  .khan__blockquote {
+    margin: 0 0 18px;
+  }
+}
