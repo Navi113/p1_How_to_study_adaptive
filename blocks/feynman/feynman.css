@@ -12,9 +12,21 @@
   flex-direction: column;
 }
 
-@media (width <=768px) {
+@media (1024px <= width <= 1280px) {
+  .feynman {
+    padding: 70px 0 0;
+  }
+}
+
+@media (768px <= width < 1024px) {
   .feynman {
     padding: 50px 0 0;
+  }
+}
+
+@media (width < 768px) {
+  .feynman {
+    padding: 30px 0 0;
     height: 100dvh;
     background-position: -280px 100px;
   }

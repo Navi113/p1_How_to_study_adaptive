@@ -5,3 +5,20 @@
   flex-direction: column;
 }
 
+@media (1024px <= width <= 1280px) {
+  .video {
+    padding: 70px 0 0;
+  }
+}
+
+@media (768px <= width < 1024px) {
+  .video {
+    padding: 50px 0 0;
+  }
+}
+
+@media (width < 768px) {
+  .video {
+    padding: 30px 0 0;
+  }
+}
