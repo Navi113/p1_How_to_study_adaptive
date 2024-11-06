@@ -1,6 +1,26 @@
 .cards {
-  width: 920px;
+  max-width: 920px;
   margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justify-items: center;
+  gap: 60px 100px;
+}
+
+@media (1024px <= width <= 1280px) {
+  .cards {
+    gap: 60px 100px;
+  }
+}
+
+@media (768px <= width < 1024px) {
+  .cards {
+    gap: 50px 85px;
+  }
+}
+
+@media (width < 768px) {
+  .cards {
+    gap: 30px 30px;
+  }
 }
