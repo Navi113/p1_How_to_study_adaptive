@@ -7,13 +7,13 @@
   z-index: 2;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media (768px <= width <= 1024px) {
   .logo_place_header {
     left: 32px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media (width < 768px) {
   .logo_place_header {
     top: 16px;
     left: 16px;

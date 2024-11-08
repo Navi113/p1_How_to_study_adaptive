@@ -2,12 +2,3 @@
   width: 228px;
   height: 32px;
 }
-
-@media screen and (max-width: 767px) {
-  .logo {
-    width: 160px;
-    height: 20px;
-    background-position: center;
-    background-size: cover;
-  }
-}

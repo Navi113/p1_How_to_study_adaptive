@@ -1,6 +1,13 @@
 .footer__columns {
   width: 80%;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 120px 110px;
+  gap: 30px;
+}
+
+@media (width <= 600px) {
+  .footer__columns {
+    display: block;
+  }
 }
